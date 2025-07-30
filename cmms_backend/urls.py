@@ -8,5 +8,6 @@ urlpatterns = [
     path('api/v1/auth/', include('djoser.urls.authtoken')), # Para autenticación basada en tokens
 
     path('api/v1/', include('assets.urls')),
-    path('api/v1/', include('work_orders.urls'))
+    path('api/v1/', include('work_orders.urls')),
+    path('api/v1/', include('inventory.urls')),
 ]

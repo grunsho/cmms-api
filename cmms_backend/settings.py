@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'assets',
     'work_orders',
+    'inventory',
 ]
 
 MIDDLEWARE = [
